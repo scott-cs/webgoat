@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_scott_cs_webgoat_1716250581070-pr-trigger-input-set
+  identifier: Build_scott_cs_webgoat_1716250581070prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_scott_cs_webgoat_1716250581070
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
