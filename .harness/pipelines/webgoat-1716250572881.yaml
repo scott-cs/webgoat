@@ -1,6 +1,6 @@
 pipeline:
   identifier: Build_scott_cs_webgoat_1716250581070
-  name: Build webgoat
+  name: Webgoat-build
   orgIdentifier: default
   projectIdentifier: default_project
   properties:
@@ -38,9 +38,9 @@ pipeline:
                   timeout: ""
                   type: BuildAndPushDockerRegistry
           platform:
-            arch: Amd64
             os: Linux
+            arch: Amd64
           runtime:
-            spec: {}
             type: Docker
+            spec: {}
         type: CI
