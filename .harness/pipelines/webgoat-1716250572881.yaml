@@ -25,7 +25,7 @@ pipeline:
                   identifier: build
                   spec:
                     connectorRef: account.harnessImage
-                    image: maven:3.8-jdk-11
+                    image: maven:3.8.3-openjdk-17
                     shell: Sh
                     command: mvn clean package dependency:copy-dependencies
               - step:
